@@ -1,6 +1,10 @@
 {
     "name": "@tenzro/sdk",
     "version": "0.1.0",
+    "public": true,
+    "publishConfig": {
+      "access": "public"
+    },
     "description": "Official TypeScript SDK for Tenzro API",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
